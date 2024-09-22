@@ -26,6 +26,7 @@ products = {
         ("Chicken", 12),
         ("Fruits", 6),
         ("Vegetables", 5),
+
         ("Snacks", 8)
     ]
 }
@@ -141,7 +142,7 @@ def main():
                 print("Thank you for using our portal. Hope you buy something from us next time. Have a nice day.")
             break
 
-""" The following block makes sure that the main() function is called when the program is run. 
+""" The following block makes sure that the main() function is called when the program is run
 It also checks that this is the module that's being run directly, and not being used as a module in some other program. 
 In that case, only the part that's needed will be executed and not the entire program """
 if __name__ == "__main__":
